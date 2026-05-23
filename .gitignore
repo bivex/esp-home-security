@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Server photos
+server/photos/
+
+# Firmware builds
+firmware/*/build/
+firmware/*/.pio/
+.pio/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with secrets
+firmware/*/config.h
+server/config.py
+
+# Binaries
+*.bin
+*.elf
+*.map

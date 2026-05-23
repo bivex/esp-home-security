@@ -1,0 +1,7 @@
+// config.h — Copy to config.h and fill in your values
+#define WIFI_SSID   "YOUR_WIFI_SSID"
+#define WIFI_PASS   "YOUR_WIFI_PASSWORD"
+#define MQTT_SERVER "192.168.1.100"
+#define MQTT_PORT   1883
+#define MQTT_USER   ""
+#define MQTT_PASS   ""

@@ -1,0 +1,15 @@
+# config.py — Copy to config.py and fill in your values
+import os
+
+MQTT_HOST      = os.getenv("MQTT_HOST", "localhost")
+MQTT_PORT      = int(os.getenv("MQTT_PORT", 1883))
+MQTT_USER      = os.getenv("MQTT_USER", "")
+MQTT_PASS      = os.getenv("MQTT_PASS", "")
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_BOT_TOKEN")
+TELEGRAM_CHAT  = int(os.getenv("TELEGRAM_CHAT", "0"))
+
+HTTP_HOST = "0.0.0.0"
+HTTP_PORT = 5001
+
+PHOTO_DIR = os.path.join(os.path.dirname(__file__), "photos")
